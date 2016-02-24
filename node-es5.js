@@ -1,13 +1,15 @@
-{
+module.exports = {
   "extends": "eslint:recommended",
   "env": {
     "node": true
   },
   "rules": {
+    // Possible Errors
     "no-console": 0,
     "no-extra-parens": 0,
     "valid-jsdoc": 0,
 
+    // Best Practices
     "accessor-pairs": 2,
     "array-callback-return": 2,
     "block-scoped-var": 2,
@@ -66,8 +68,10 @@
     "wrap-iife": [2, "inside"],
     "yoda": 0,
 
+    // Strict Mode
     "strict": 2,
 
+    // Variables
     "init-declarations": 0,
     "no-catch-shadow": 2,
     "no-label-var": 2,
@@ -78,6 +82,7 @@
     "no-unused-vars": [2, {"vars": "all", "args": "all", "argsIgnorePattern": "^_"}],
     "no-use-before-define": [2, "nofunc"],
 
+    // Node.js and CommonJS
     "callback-return": 0,
     "global-require": 0,
     "handle-callback-err": 0,
@@ -89,6 +94,7 @@
     "no-restricted-modules": 0,
     "no-sync": 2,
 
+    // Stylistic Issues
     "array-bracket-spacing": 2,
     "block-spacing": 2,
     "brace-style": 2,

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-connesc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal ESLint config",
   "keywords": [
     "eslint",
@@ -16,10 +16,10 @@
   "license": "MIT",
   "author": "Cédric Connes <cedric.connes@gmail.com>",
   "files": [
-    "node-es5.json",
-    "node-es6.json"
+    "node-es5.js",
+    "node-es6.js"
   ],
-  "main": "node-es6.json",
+  "main": "node-es6.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/connesc/eslint-config-connesc.git"

@@ -1,5 +1,5 @@
-{
-  "extends": "connesc/node-es5",
+module.exports = {
+  "extends": "./node-es5",
   "parserOptions": {
     "ecmaVersion": 6
   },
@@ -7,6 +7,7 @@
     "es6": true
   },
   "rules": {
+    // ECMAScript 6
     "arrow-body-style": 2,
     "arrow-parens": 2,
     "arrow-spacing": 2,
