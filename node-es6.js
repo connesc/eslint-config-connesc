@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": "./node-es5",
+  "extends": "connesc/node-es5",
   "parserOptions": {
     "ecmaVersion": 6
   },
