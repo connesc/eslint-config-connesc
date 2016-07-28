@@ -150,7 +150,7 @@ module.exports = {
     "object-curly-newline": "off",
     "object-curly-spacing": "error",
     "object-property-newline": "off",
-    "one-var": ["error", {"initialized": "never", "uninitialized": "always"}],
+    "one-var": ["error", {"initialized": "never"}],
     "one-var-declaration-per-line": "off",
     "operator-assignment": "error",
     "operator-linebreak": ["error", "before"],
